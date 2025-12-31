@@ -1,12 +1,3 @@
-# This is the package expression for nixpkgs submission
-# Place this file in: pkgs/tools/misc/themectl/default.nix
-# 
-# Usage in nixpkgs:
-# 1. Copy this file to nixpkgs/pkgs/tools/misc/themectl/default.nix
-# 2. Update the fetchFromGitHub section with actual values
-# 3. Add yourself to maintainers list
-# 4. Submit a PR to nixpkgs
-
 { lib
 , rustPlatform
 , fetchFromGitHub
