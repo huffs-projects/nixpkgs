@@ -11,7 +11,7 @@ rustPlatform.buildRustPackage rec {
     owner = "huffs-projects";
     repo = "themectl";
     rev = "v${version}";
-    sha256 = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";  # UPDATE: Run nix-prefetch-github to get the hash
+    sha256 = "sha256-lwiq+nQDGKTKglwyU0Yf9Th3DQAzWvqGnbyBCDgrB7A=";
   };
 
   cargoLock = {
